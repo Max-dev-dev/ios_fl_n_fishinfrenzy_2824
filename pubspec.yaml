@@ -1,0 +1,40 @@
+name: ios_f_n_fishinfrenzy_2824
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# utils
+  logger: ^2.5.0
+  freezed_annotation: ^2.4.4
+  flame: ^1.24.0
+
+  # state management
+  flutter_bloc: ^9.0.0
+
+  # local data saving
+  shared_preferences: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  freezed: ^2.5.7
+  json_serializable: ^6.9.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/prehistory/
+    - assets/images/quiz/
+    - assets/images/fish/
+    - assets/images/treasure_hunt/
