@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/Mini-games.png'),
+            image: AssetImage('assets/images/home.png'),
             fit: BoxFit.fill,
           ),
         ),
@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Color(0xFFF9A928),
                   ),
                 ),
               ),
@@ -50,7 +50,7 @@ class HomeScreen extends StatelessWidget {
                             style: const TextStyle(
                               fontSize: 38,
                               fontWeight: FontWeight.w600,
-                              color: Colors.white,
+                              color: Color(0xFFF9A928),
                             ),
                           );
                         },
